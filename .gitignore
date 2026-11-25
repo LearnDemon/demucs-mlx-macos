@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+._*
+
+# 构建产物
+.build/
+dist/
+*.app
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 模型权重与本地测试音频（体积大，不应随仓库分发）
+*.safetensors
+*.ckpt
+*.bin
+*.wav
+*.m4a
+*.mp3
+*.flac
+*.ogg
+!docs/*.wav
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
